@@ -1,0 +1,32 @@
+{
+  "name": "gloo-sdk-node",
+  "version": "0.1.0",
+  "description": "gloo SDK for the Node language",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1",
+    "uuid": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solo-io/gloo-sdk-node.git"
+  },
+  "keywords": [
+    "node",
+    "gloo",
+    "serverless",
+    "sdk"
+  ],
+  "author": "Scott Weiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solo-io/gloo-sdk-node/issues"
+  },
+  "homepage": "https://github.com/solo-io/gloo-sdk-node#readme",
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  }
+}
